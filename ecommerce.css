@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+    padding: 0%;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#navbar input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    border:0.6px solid;
+}
+
+#navbar button{
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #e80071;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#home {
+    background-image: url('https://images-static.nykaa.com/uploads/b404c5bb-6e43-4304-88ca-68c41bd7e9ee.gif');
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+#home button{
+    background-color: #e80071;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#home h1{
+    padding: 1%;
+    margin-left: 50%;
+    color:white;
+    text-shadow: 2px 3px 5px black;
+}
+
+#home button{
+    margin-left: 60%;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    padding: 30px;
+}
+
+#left h1{
+    color: #e80071;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#left button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f9f8f8;
+    color: #e80071;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #e80071;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#left button:hover{
+    background-color: #e80071;
+    color: white;
+}
+
+#products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#products img {
+    width: 17%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+#group{
+    display: flex;
+    flex-direction: row;
+}
+
+#group img{
+    margin-right: 20px;
+}
+
+#internalgroup{
+    display: flex;
+    flex-direction: column;
+}
+
+#full{
+    background-color: #e80071;
+    width: 100%;
+}
+
+#reserve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#group1{
+    display: flex;
+    flex-direction: row;
+}
+
+#group1 p{
+    padding: 0 15px;
+}
+
